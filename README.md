@@ -1,3 +1,4 @@
+
 # 📩 SMS Spam Classifier Web App
 
 A simple yet powerful **Machine Learning app** that classifies SMS messages as **Spam** or **Not Spam**, deployed using **Streamlit**.
@@ -23,24 +24,22 @@ A simple yet powerful **Machine Learning app** that classifies SMS messages as *
 
 ## 📦 Tech Stack
 
-| Component      | Tool              |
-|----------------|-------------------|
-| Language       | Python            |
+| Component      | Tool               |
+|----------------|--------------------|
+| Language       | Python             |
 | ML Libraries   | scikit-learn, NLTK |
-| Web Framework  | Streamlit         |
-| Model Storage  | Pickle (.pkl)     |
+| Web Framework  | Streamlit          |
+| Model Storage  | Pickle (`.pkl`)    |
 
 ---
 
 ## 📁 Project Structure
 
 ```bash
-
-├── classifier.ipynb # Jupyter notebook for model training
-├── deployment.py # Streamlit app script
-├── vectorizer.pkl # Trained TF-IDF vectorizer
-├── model.pkl # Trained classification model
-
+├── classifier.ipynb   # Jupyter notebook for model training
+├── deployment.py      # Streamlit app script
+├── vectorizer.pkl     # Trained TF-IDF vectorizer
+├── model.pkl          # Trained classification model
 ```
 
 ---
@@ -57,49 +56,44 @@ A simple yet powerful **Machine Learning app** that classifies SMS messages as *
 
 ## 🔧 Setup Instructions
 
-1. **Clone the repo**
+1. **Clone the repository**
 ```bash
 git clone https://github.com/your-username/spam-classifier.git
 cd spam-classifier
+```
 
-
-2. Install Requirements
-
+2. **Install Requirements**
 ```bash
 pip install -r requirements.txt
-
 ```
 
-### 3. Run the app
-
+3. **Run the app**
 ```bash
 streamlit run deployment.py
-
 ```
 
-## Requirements
+---
 
-    - Python 3.8+
+## 📌 Requirements
 
-    - NLTK
+- Python 3.8+
+- NLTK
+- scikit-learn
+- streamlit
+- matplotlib
+- pickle (standard)
 
-    - scikit-learn
-
-    - streamlit
-
-    - matplotlib
-
-    - pickle (standard)
-
+---
 
 ## 📬 Sample Messages to Test
 
-```bash
+```text
 Free entry in 2 a weekly competition to win FA Cup!
 Hey, are we meeting later today?
 URGENT! You’ve won a 1-week free membership!
-
 ```
+
+---
 
 ## 🙌 Acknowledgements
 
