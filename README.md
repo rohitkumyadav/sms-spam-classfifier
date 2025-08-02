@@ -1,0 +1,101 @@
+# 📩 SMS Spam Classifier Web App
+
+A simple yet powerful **Machine Learning app** that classifies SMS messages as **Spam** or **Not Spam**, deployed using **Streamlit**.
+
+---
+
+## 🚀 Demo
+
+💻 **Live Demo**: [Add link here when deployed]
+
+![App Screenshot](https://user-images.githubusercontent.com/your-image-link.png)
+
+---
+
+## 🧠 Features
+
+- 🔍 **Preprocessing pipeline**: tokenization, stopword removal, stemming
+- 📊 **TF-IDF Vectorization** for text representation
+- 🤖 **ML Classifier** trained to detect spam messages
+- 🌐 **Streamlit Web UI** for real-time classification
+
+---
+
+## 📦 Tech Stack
+
+| Component      | Tool              |
+|----------------|-------------------|
+| Language       | Python            |
+| ML Libraries   | scikit-learn, NLTK |
+| Web Framework  | Streamlit         |
+| Model Storage  | Pickle (.pkl)     |
+
+---
+
+## 📁 Project Structure
+
+```bash
+
+├── classifier.ipynb # Jupyter notebook for model training
+├── deployment.py # Streamlit app script
+├── vectorizer.pkl # Trained TF-IDF vectorizer
+├── model.pkl # Trained classification model
+
+```
+
+---
+
+## ⚙️ How It Works
+
+1. User enters a message in the input box.
+2. The message is preprocessed (lowercase, tokenized, cleaned, stemmed).
+3. The text is vectorized using the **TF-IDF vectorizer**.
+4. The classifier model predicts the label: **Spam** or **Not Spam**.
+5. The result is displayed instantly on the Streamlit UI.
+
+---
+
+## 🔧 Setup Instructions
+
+1. **Clone the repo**
+```bash
+git clone https://github.com/your-username/spam-classifier.git
+cd spam-classifier
+
+
+### 2. Install Requirements
+
+```bash
+pip install -r requirements.txt
+```
+### 3. Run the app
+
+## Requirements
+
+    - Python 3.8+
+
+    - NLTK
+
+    - scikit-learn
+
+    - streamlit
+
+    - matplotlib
+
+    - pickle (standard)
+
+
+## 📬 Sample Messages to Test
+
+```bash
+Free entry in 2 a weekly competition to win FA Cup!
+Hey, are we meeting later today?
+URGENT! You’ve won a 1-week free membership!
+
+```
+
+## 🙌 Acknowledgements
+
+- [Streamlit](https://streamlit.io/)
+- [NLTK](https://www.nltk.org/)
+- [scikit-learn](https://scikit-learn.org/)
