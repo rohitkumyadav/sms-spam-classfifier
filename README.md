@@ -9,7 +9,7 @@ A simple yet powerful **Machine Learning app** that classifies SMS messages as *
 
 💻 **Live Demo**: [Add link here when deployed]
 
-![App Screenshot](https://user-images.githubusercontent.com/your-image-link.png)
+![App Screenshot](![alt text](image-1.png))
 
 ---
 
