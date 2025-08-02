@@ -61,9 +61,9 @@ A simple yet powerful **Machine Learning app** that classifies SMS messages as *
 ```bash
 git clone https://github.com/your-username/spam-classifier.git
 cd spam-classifier
+```
 
-
-Install Requirements
+###2.  Install Requirements
 
 ```bash
 pip install -r requirements.txt
