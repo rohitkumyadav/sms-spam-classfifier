@@ -63,11 +63,13 @@ git clone https://github.com/your-username/spam-classifier.git
 cd spam-classifier
 
 
-### 2. Install Requirements
+2. Install Requirements
 
 ```bash
 pip install -r requirements.txt
+
 ```
+
 ### 3. Run the app
 
 ```bash
